@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = NestUnder::VERSION
   gem.authors       = ["Colin Young"]
   gem.email         = ["me@colinyoung.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Lets you mark a resource as nested in your tests to avoid re-listing its parent}
+  gem.summary       = %q{Easier nested resources in minitest controllers}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
